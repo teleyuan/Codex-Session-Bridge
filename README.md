@@ -1,4 +1,4 @@
-﻿﻿﻿﻿## Codex 会话供应商同步工具
+﻿﻿﻿﻿Codex 会话供应商同步工具
 
 用于解决 Codex CLI 切换 `model_provider` 后，`codex resume` 看不到其他模型供应商历史会话的问题。它会把本地 Codex 会话索引和会话文件里的供应商元数据同步到当前或指定的 `model_provider`。
 
