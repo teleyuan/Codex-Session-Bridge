@@ -1,4 +1,4 @@
-﻿﻿﻿# Codex 会话供应商同步工具
+﻿﻿﻿﻿## Codex 会话供应商同步工具
 
 用于解决 Codex CLI 切换 `model_provider` 后，`codex resume` 看不到其他模型供应商历史会话的问题。它会把本地 Codex 会话索引和会话文件里的供应商元数据同步到当前或指定的 `model_provider`。
 
@@ -76,9 +76,8 @@ build_exe.bat
 
 1. 关闭 Codex。
 2. 切换 `~/.codex/config.toml` 的 `model_provider`。
-3. 打开 `dist\codex_session_bridge.exe`。
+3. 打开 `codex_session_bridge.exe`。
 4. 从下拉列表选择目标 provider。
 5. 点击“刷新状态”确认当前会话分布。
 6. 点击“同步到此 provider”执行同步。
-
 
