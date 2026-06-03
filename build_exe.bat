@@ -21,13 +21,13 @@ if errorlevel 1 (
   --clean ^
   --onefile ^
   --windowed ^
-  --name "Codex会话同步工具" ^
+  --name "codex_session_bridge" ^
   gui_entry.py
 
 if errorlevel 1 goto :fail
 
 echo.
-echo Build succeeded: dist\Codex会话同步工具.exe
+echo Build succeeded: dist\codex_session_bridge.exe
 pause
 exit /b 0
 
@@ -36,3 +36,4 @@ echo.
 echo Build failed.
 pause
 exit /b 1
+

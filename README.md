@@ -76,8 +76,9 @@ build_exe.bat
 
 1. 关闭 Codex。
 2. 切换 `~/.codex/config.toml` 的 `model_provider`。
-3. 打开 `dist\Codex会话同步工具.exe`。
+3. 打开 `dist\codex_session_bridge.exe`。
 4. 从下拉列表选择目标 provider。
 5. 点击“刷新状态”确认当前会话分布。
 6. 点击“同步到此 provider”执行同步。
+
 
